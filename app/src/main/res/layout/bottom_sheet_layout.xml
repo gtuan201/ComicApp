@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FBEF80">
+
+    <View
+        android:background="@color/black"
+        android:layout_width="50dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:text="Feedback"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#DC682E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+    <TextView
+        android:text="Enter Your Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:text="*"
+            android:textColor="#F80909"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/nameFeedback"
+        android:hint="Your Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/custom_edittext2"/>
+
+        <TextView
+            android:text="Enter Your Email"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/emailFeedback"
+        android:hint="Your Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/custom_edittext2"/>
+    <TextView
+        android:text="Your Feedback"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/feedback"
+        android:hint="Leave Your Feedback"
+        android:padding="10dp"
+        android:textAlignment="inherit"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_height="250dp"
+        android:background="@drawable/custom_edittext2"/>
+    <TextView
+        android:text="* Không bắt buộc"
+        android:textColor="#F30808"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel_feedback"
+            android:text="Cancel"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_cancel"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submit_Feedback"
+            android:text="Submit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/button_submit"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

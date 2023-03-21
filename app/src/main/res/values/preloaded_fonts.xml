@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aguafina_script</item>
+        <item>@font/allan_bold</item>
+        <item>@font/arizonia</item>
+        <item>@font/audiowide</item>
+        <item>@font/bad_script</item>
+        <item>@font/bangers</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bonbon</item>
+        <item>@font/carter_one</item>
+        <item>@font/cherry_swash_bold</item>
+        <item>@font/chewy</item>
+    </array>
+</resources>

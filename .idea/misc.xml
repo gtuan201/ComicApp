@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ComicApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable-v24/scrim_top_down.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/background.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/baseline_auto_stories_24.xml" value="0.161" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/black_favorite.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/button_cancel.xml" value="0.2" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/button_custom.xml" value="0.1595" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/button_custom2.xml" value="0.1595" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/button_submit.xml" value="0.2" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/circle_button.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/custom_button3.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/custom_edittext.xml" value="0.1595" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/custom_edittext2.xml" value="0.2035" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/custom_edittext3.xml" value="0.2" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/custom_img.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/custom_indicator.xml" value="0.161" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/custom_layout_des.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/custom_nav.xml" value="0.161" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/daskboard_custom.xml" value="0.161" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/favorite_red.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.213" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_cloud_download_24.xml" value="0.2" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.213" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_description_24.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_fiber_new_24.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.213" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_local_fire_department_24.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_picture_as_pdf_24.xml" value="0.213" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.213" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.161" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1595" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/icon_animation_home.xml" value="0.2" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/icon_button_read.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/indicator_home_fragment.xml" value="0.136" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/pdf_select.xml" value="0.2" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/profile_24.xml" value="0.161" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/scrim.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/tab_background_unselected.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/tab_baclground_selected.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/tab_selector.xml" value="0.201" />
+        <entry key="..\:/ComicApp/app/src/main/res/drawable/test.xml" value="0.2035" />
+        <entry key="..\:/ComicApp/app/src/main/res/font/alfa_slab_one.xml" value="0.28" />
+        <entry key="..\:/ComicApp/app/src/main/res/font/allan.xml" value="0.28" />
+        <entry key="..\:/ComicApp/app/src/main/res/font/beth_ellen.xml" value="0.28" />
+        <entry key="..\:/ComicApp/app/src/main/res/font/bungee_shade.xml" value="0.28" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout-w1240dp/fragment_detail.xml" value="0.144" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_add_category.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_add_pdf.xml" value="0.25416666666666665" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_book_category_tab.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_book_category_tab_main.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_book_detail.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_cat.xml" value="0.25416666666666665" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_comtainer_fragment.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_dash_board_admin.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_favorite.xml" value="0.25416666666666665" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_login2.xml" value="0.25416666666666665" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_main.xml" value="0.22037037037037038" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_more_info.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_read.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_sign_up.xml" value="0.22037037037037038" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/activity_update_profile_user.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/custom_progress_dialog.xml" value="0.22037037037037038" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_blank.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_book_category.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_container.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_detail.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_favorite.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_infor.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_read.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/fragment_type.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/item_book.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/item_book_category.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/item_book_new.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/item_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/item_favorite.xml" value="0.25416666666666665" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/item_photo.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/layout_header_nav.xml" value="0.264" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/progress_diaglog_custom.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/layout/toast_custom.xml" value="0.4" />
+        <entry key="..\:/ComicApp/app/src/main/res/menu/bottom_menu.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/menu/menu_drawer_layout.xml" value="0.25025641025641027" />
+        <entry key="..\:/ComicApp/app/src/main/res/menu/menu_nav.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/menu/menu_toolbarcollap.xml" value="0.25416666666666665" />
+        <entry key="..\:/ComicApp/app/src/main/res/menu/search_view.xml" value="0.22685185185185186" />
+        <entry key="..\:/ComicApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1735" />
+        <entry key="..\:/ComicApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1735" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

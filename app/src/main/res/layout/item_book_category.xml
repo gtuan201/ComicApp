@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:folding-cell="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_marginTop="4dp"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    <com.ramotion.foldingcell.FoldingCell
+        android:id="@+id/folding_cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backSideColor="#F16C6C"
+        folding-cell:cameraHeight="20"
+        folding-cell:animationDuration="3000">
+        <FrameLayout
+            android:id="@+id/cell_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext3"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/bookNameDetail"
+                    android:text="Book Name"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Mô tả :"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/purple_700"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/motaFold"
+                    android:text="Đây là mô tả"
+                    android:layout_width="match_parent"
+                    android:layout_height="197dp"
+                    android:padding="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btReadFold"
+                    android:layout_width="150dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_custom"
+                    android:text="Read" />
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/cell_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext2"
+                android:padding="5dp">
+                <ImageView
+                    android:id="@+id/imgViewContent"
+                    android:src="@drawable/img"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:id="@+id/bookNameContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@+id/imgViewContent"
+                    android:text="Book Name"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/bookCategoryContent"
+                    android:text = "Category"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#48F80000"
+                    android:layout_toRightOf="@+id/imgViewContent"
+                    android:layout_below="@+id/bookNameContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true">
+                    <ImageButton
+                        android:id="@+id/downloadBook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_baseline_cloud_download_24" />
+                    <ImageButton
+                        android:id="@+id/favoriteBook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:background="#00FFFFFF"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/black_favorite" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </FrameLayout>
+    </com.ramotion.foldingcell.FoldingCell>
+
+
+
+
+</LinearLayout>

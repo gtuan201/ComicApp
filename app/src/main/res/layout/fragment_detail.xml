@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/toolBarImg"
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+
+                <ImageView
+                    android:id="@+id/img_Detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_5" />
+
+                <TextView
+                    android:id="@+id/toolbarBookname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="165dp"
+                    android:background="#85504848"
+                    android:text="Book Name"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/toolbarCate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toolbarBookname"
+                    android:layout_marginStart="10dp"
+                    android:text="Category"
+                    android:background="#85504848"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_des"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolBarImg"
+            android:background="@drawable/img_16"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/motaTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Mô tả"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desBookdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/motaTxt"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:text="Đây là mô tả"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btReadbook"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="15sp"
+                    android:drawableTop="@drawable/ic_baseline_library_books_24"
+                    android:background="@drawable/button_custom"
+                    android:text="Read" />
+
+                <!--                <com.airbnb.lottie.LottieAnimationView-->
+                <!--                    android:id="@+id/favorite"-->
+                <!--                    android:layout_width="60dp"-->
+                <!--                    android:layout_height="60dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:layout_marginLeft="5dp"-->
+                <!--                    app:lottie_rawRes="@raw/favourite" />-->
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/favorite"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/button_custom"
+                    android:layout_marginEnd="20dp"
+                    android:text="Add Favorite"
+                    android:drawableTop="@drawable/ic_baseline_favorite_border_24" />
+
+                <ImageButton
+                    android:id="@+id/btDownload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:background="#00FFFFFF"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_cloud_download_24" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btBackDetail"
+                    android:layout_width="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF"
+                    android:drawableRight="@drawable/ic_baseline_arrow_back_ios_new_24" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

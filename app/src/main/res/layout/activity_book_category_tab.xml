@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.BookCategoryTabActivity"
+    android:background="@drawable/img_15">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <ImageButton
+            android:id="@+id/btBackTab"
+            android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+            android:background="#00FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/kavoon"
+            android:textColor="#FF8A65"
+            android:text="Categories"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:background="#00FFFFFF"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/cat" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:background="#00FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabUnboundedRipple="false"
+            app:tabSelectedTextColor="@color/teal_200"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp"
+            app:tabMode="scrollable"
+            app:tabIndicatorFullWidth="false"
+            app:tabTextColor="#C3322F32"/>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpagerTab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

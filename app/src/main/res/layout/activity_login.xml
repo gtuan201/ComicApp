@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_signup_background">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@drawable/login_typography"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/chewy"
+        android:text="LOGIN"
+        android:textColor="#EDA088"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Your Email"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/userMail"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:text="Password"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/matkhau"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:paddingLeft="10dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btLogin"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="@font/audiowide"
+        android:text="Login"
+        android:textColor="#FFF" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btSignup"
+        android:background="@drawable/button_custom2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Sign up"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="#AA6868" />
+    <TextView
+        android:id="@+id/forgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:layout_marginTop="2dp"
+        android:textColor="#EDA088"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>

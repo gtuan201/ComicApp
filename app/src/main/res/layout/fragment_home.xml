@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_16"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.viewpager.widget.ViewPager
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/viewPagerHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <me.relex.circleindicator.CircleIndicator
+                    android:id="@+id/circle_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:ci_drawable="@drawable/bell"
+                    android:layout_height="20dp"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottieAnimationView2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/icon_animation_home"
+                        app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/cat" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottieAnimationView"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/icon_animation_home"
+                        android:padding="5dp"
+                        app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView3"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/lottieAnimationView2"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/discord" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottieAnimationView3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/icon_animation_home"
+                        android:padding="5dp"
+                        app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView4"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/lottieAnimationView"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/seorainking" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottieAnimationView4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/icon_animation_home"
+                        android:padding="7dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/lottieAnimationView3"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/emailsend" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/carter_one"
+                    android:text="Book Trending"
+                    android:drawableEnd="@drawable/ic_baseline_local_fire_department_24"
+                    android:textColor="#F88383"
+                    android:drawablePadding="7dp"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewBookTrend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/carter_one"
+                    android:text="New Books"
+                    android:textColor="#F88383"
+                    android:drawableEnd="@drawable/ic_baseline_fiber_new_24"
+                    android:textSize="22dp"
+                    android:drawablePadding="7dp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewBookDeXuat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

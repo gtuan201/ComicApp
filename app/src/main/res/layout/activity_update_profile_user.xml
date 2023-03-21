@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UpdateProfileUserActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/img_12">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/updateAvt"
+        android:src="@drawable/avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <EditText
+        android:id="@+id/nameUpdate"
+        android:background="@drawable/custom_edittext2"
+        android:hint="Enter Full Name"
+        android:padding="10dp"
+        android:drawableStart="@drawable/profile_24"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/emailUpdate"
+        android:background="@drawable/custom_edittext2"
+        android:hint="Enter Your Email"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/updateProfile"
+        android:text="Update Profile"
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/updateEmail"
+        android:text="Update Email"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btBackUpdate"
+        android:text="Back to Home"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="#AA6868"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom2"/>
+
+</LinearLayout>

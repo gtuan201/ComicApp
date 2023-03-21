@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddPdfActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/daskboard_custom">
+
+        <ImageButton
+            android:id="@+id/btBack2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#00FFFFFF"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_new_24" />
+
+        <ImageView
+            android:id="@+id/logoNewBook"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logoaddbook" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoNewBook"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/allan_bold"
+            android:text="Add a new book"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newBookTit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="220dp"
+        app:hintEnabled="false">
+        <EditText
+            android:id="@+id/bookET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edittext2"
+            android:drawableStart="@drawable/ic_baseline_picture_as_pdf_24"
+            android:drawablePadding="10dp"
+            android:hint="Book Title"
+            android:inputType="textPersonName|textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#918B8B"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="241dp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/moTa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/newBookTit"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_edittext2"
+        android:drawableStart="@drawable/ic_baseline_subtitles_24"
+        android:drawablePadding="10dp"
+        android:hint="Book Description"
+        android:padding="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:id="@+id/spinerCate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/moTa"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_edittext2"
+        android:drawableStart="@drawable/ic_baseline_list_24"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="Select catetory"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/filePdf"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/spinerCate"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/pdf_select"
+        android:drawableStart="@drawable/ic_baseline_attach_file_24"
+        android:gravity="center"
+        android:text="Select PDF file"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btSubmidAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filePdf"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="@font/audiowide"
+        android:text="+ Add new book"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

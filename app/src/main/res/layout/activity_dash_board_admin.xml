@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DashBoardAdminActivity"
+    android:background="@drawable/dashboar_background">
+
+    <RelativeLayout
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/daskboard_custom">
+
+        <TextView
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Admin Dashboard"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/admin"
+            android:layout_centerHorizontal="true"
+            android:text="admin@gmail.com" />
+
+        <ImageButton
+            android:id="@+id/btLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/ic_baseline_power_settings_new_24" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/tvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/toolBar"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/custom_edittext2"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:hint="Search Category"
+        android:paddingStart="6dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoryRecyclerView"
+        android:layout_below="@id/tvSearch"
+        android:layout_above="@+id/comboButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_category"
+        android:layout_margin="5dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <LinearLayout
+        android:id="@+id/comboButton"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addCategory"
+            android:text="+ Add Category"
+            android:background="@drawable/button_custom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:layout_marginEnd="10dp"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addPdf"
+            android:backgroundTint="@color/purple_200"
+            android:src="@drawable/ic_baseline_picture_as_pdf_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

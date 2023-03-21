@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "815245343315",
+    "project_id": "comicapp-ea12c",
+    "storage_bucket": "comicapp-ea12c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815245343315:android:b012c5a1819636d00f24a6",
+        "android_client_info": {
+          "package_name": "com.example.comicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815245343315-lmgcar9svu4tumqhph7ph6rphrkkrgfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC0HEGJv17q_AF-G7LgA235YwtpYpIWkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815245343315-lmgcar9svu4tumqhph7ph6rphrkkrgfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
